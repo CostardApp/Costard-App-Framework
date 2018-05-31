@@ -1,0 +1,4 @@
+framework module CostardApp {
+    header "CostardApp-Swift.h"
+    requires objc
+}
