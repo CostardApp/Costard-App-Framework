@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D3424A8020C0009B00B9D6B7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3424A7F20C0009B00B9D6B7 /* Default-568h@2x.png */; };
-		D3424AA020C06AAF00B9D6B7 /* CostardApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3424A9E20C06AA400B9D6B7 /* CostardApp.framework */; };
-		D3424AA120C06AAF00B9D6B7 /* CostardApp.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D3424A9E20C06AA400B9D6B7 /* CostardApp.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D3424AA220C0766F00B9D6B7 /* CostardApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3424A9E20C06AA400B9D6B7 /* CostardApp.framework */; };
+		D3424AA320C0766F00B9D6B7 /* CostardApp.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D3424A9E20C06AA400B9D6B7 /* CostardApp.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D34B1BAE2098E2DE006F4BCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34B1BAD2098E2DE006F4BCD /* AppDelegate.swift */; };
 		D34B1BB02098E2DE006F4BCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34B1BAF2098E2DE006F4BCD /* ViewController.swift */; };
 		D34B1BB32098E2DF006F4BCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D34B1BB12098E2DF006F4BCD /* Main.storyboard */; };
@@ -18,13 +18,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		D3424A8320C000CF00B9D6B7 /* Embed Frameworks */ = {
+		D3424AA420C0766F00B9D6B7 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D3424AA120C06AAF00B9D6B7 /* CostardApp.framework in Embed Frameworks */,
+				D3424AA320C0766F00B9D6B7 /* CostardApp.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -34,7 +34,7 @@
 /* Begin PBXFileReference section */
 		D3424A7F20C0009B00B9D6B7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		D3424A9E20C06AA400B9D6B7 /* CostardApp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CostardApp.framework; sourceTree = "<group>"; };
-		D34B1BAA2098E2DE006F4BCD /* TestCostardAppFramework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCostardAppFramework.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D34B1BAA2098E2DE006F4BCD /* Costard-App-Framework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Costard-App-Framework.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D34B1BAD2098E2DE006F4BCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D34B1BAF2098E2DE006F4BCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D34B1BB22098E2DF006F4BCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3424AA020C06AAF00B9D6B7 /* CostardApp.framework in Frameworks */,
+				D3424AA220C0766F00B9D6B7 /* CostardApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				D3424A7F20C0009B00B9D6B7 /* Default-568h@2x.png */,
-				D34B1BAC2098E2DE006F4BCD /* TestCostardAppFramework */,
+				D34B1BAC2098E2DE006F4BCD /* Costard-App-Framework */,
 				D34B1BAB2098E2DE006F4BCD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,12 +67,12 @@
 		D34B1BAB2098E2DE006F4BCD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D34B1BAA2098E2DE006F4BCD /* TestCostardAppFramework.app */,
+				D34B1BAA2098E2DE006F4BCD /* Costard-App-Framework.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D34B1BAC2098E2DE006F4BCD /* TestCostardAppFramework */ = {
+		D34B1BAC2098E2DE006F4BCD /* Costard-App-Framework */ = {
 			isa = PBXGroup;
 			children = (
 				D34B1BAD2098E2DE006F4BCD /* AppDelegate.swift */,
@@ -83,28 +83,28 @@
 				D34B1BB92098E2E1006F4BCD /* Info.plist */,
 				D3424A9E20C06AA400B9D6B7 /* CostardApp.framework */,
 			);
-			path = TestCostardAppFramework;
+			path = "Costard-App-Framework";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D34B1BA92098E2DE006F4BCD /* TestCostardAppFramework */ = {
+		D34B1BA92098E2DE006F4BCD /* Costard-App-Framework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D34B1BBC2098E2E1006F4BCD /* Build configuration list for PBXNativeTarget "TestCostardAppFramework" */;
+			buildConfigurationList = D34B1BBC2098E2E1006F4BCD /* Build configuration list for PBXNativeTarget "Costard-App-Framework" */;
 			buildPhases = (
 				D34B1BA62098E2DE006F4BCD /* Sources */,
 				D34B1BA72098E2DE006F4BCD /* Frameworks */,
 				D34B1BA82098E2DE006F4BCD /* Resources */,
-				D3424A8320C000CF00B9D6B7 /* Embed Frameworks */,
+				D3424AA420C0766F00B9D6B7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TestCostardAppFramework;
+			name = "Costard-App-Framework";
 			productName = TestFramework;
-			productReference = D34B1BAA2098E2DE006F4BCD /* TestCostardAppFramework.app */;
+			productReference = D34B1BAA2098E2DE006F4BCD /* Costard-App-Framework.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -122,7 +122,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D34B1BA52098E2DE006F4BCD /* Build configuration list for PBXProject "TestCostardAppFramework" */;
+			buildConfigurationList = D34B1BA52098E2DE006F4BCD /* Build configuration list for PBXProject "Costard-App-Framework" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -135,7 +135,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D34B1BA92098E2DE006F4BCD /* TestCostardAppFramework */,
+				D34B1BA92098E2DE006F4BCD /* Costard-App-Framework */,
 			);
 		};
 /* End PBXProject section */
@@ -312,8 +312,9 @@
 					"$(PROJECT_DIR)/TestFramework",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/TestCostardAppFramework",
+					"$(PROJECT_DIR)/Costard-App-Framework",
 				);
-				INFOPLIST_FILE = TestCostardAppFramework/Info.plist;
+				INFOPLIST_FILE = "Costard-App-Framework/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -336,8 +337,9 @@
 					"$(PROJECT_DIR)/TestFramework",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/TestCostardAppFramework",
+					"$(PROJECT_DIR)/Costard-App-Framework",
 				);
-				INFOPLIST_FILE = TestCostardAppFramework/Info.plist;
+				INFOPLIST_FILE = "Costard-App-Framework/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -352,7 +354,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D34B1BA52098E2DE006F4BCD /* Build configuration list for PBXProject "TestCostardAppFramework" */ = {
+		D34B1BA52098E2DE006F4BCD /* Build configuration list for PBXProject "Costard-App-Framework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D34B1BBA2098E2E1006F4BCD /* Debug */,
@@ -361,7 +363,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D34B1BBC2098E2E1006F4BCD /* Build configuration list for PBXNativeTarget "TestCostardAppFramework" */ = {
+		D34B1BBC2098E2E1006F4BCD /* Build configuration list for PBXNativeTarget "Costard-App-Framework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D34B1BBD2098E2E1006F4BCD /* Debug */,
