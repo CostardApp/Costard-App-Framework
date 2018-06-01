@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		D3424A8020C0009B00B9D6B7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D3424A7F20C0009B00B9D6B7 /* Default-568h@2x.png */; };
-		D3424AA220C0766F00B9D6B7 /* CostardApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3424A9E20C06AA400B9D6B7 /* CostardApp.framework */; };
-		D3424AA320C0766F00B9D6B7 /* CostardApp.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D3424A9E20C06AA400B9D6B7 /* CostardApp.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D34B1BAE2098E2DE006F4BCD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34B1BAD2098E2DE006F4BCD /* AppDelegate.swift */; };
-		D34B1BB02098E2DE006F4BCD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34B1BAF2098E2DE006F4BCD /* ViewController.swift */; };
+		D34B1BB02098E2DE006F4BCD /* LoadVideosFromPlaylistVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34B1BAF2098E2DE006F4BCD /* LoadVideosFromPlaylistVC.swift */; };
 		D34B1BB32098E2DF006F4BCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D34B1BB12098E2DF006F4BCD /* Main.storyboard */; };
 		D34B1BB52098E2E1006F4BCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D34B1BB42098E2E1006F4BCD /* Assets.xcassets */; };
 		D34B1BB82098E2E1006F4BCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D34B1BB62098E2E1006F4BCD /* LaunchScreen.storyboard */; };
+		D3EDC8E820C168F900362CDB /* LoadPlaylistsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EDC8E720C168F900362CDB /* LoadPlaylistsVC.swift */; };
+		D3EDC8EA20C16A2200362CDB /* CheckAppInstallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EDC8E920C16A2200362CDB /* CheckAppInstallVC.swift */; };
+		D3EDC8EC20C16B8C00362CDB /* LoadStatisticsChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EDC8EB20C16B8C00362CDB /* LoadStatisticsChannelVC.swift */; };
+		D3EDC8EE20C16C0B00362CDB /* SearchVideosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EDC8ED20C16C0B00362CDB /* SearchVideosVC.swift */; };
+		D3EDC92720C184F600362CDB /* CostardApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3EDC92520C184E100362CDB /* CostardApp.framework */; };
+		D3EDC92820C184F600362CDB /* CostardApp.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D3EDC92520C184E100362CDB /* CostardApp.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +28,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D3424AA320C0766F00B9D6B7 /* CostardApp.framework in Embed Frameworks */,
+				D3EDC92820C184F600362CDB /* CostardApp.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -33,14 +37,18 @@
 
 /* Begin PBXFileReference section */
 		D3424A7F20C0009B00B9D6B7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		D3424A9E20C06AA400B9D6B7 /* CostardApp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CostardApp.framework; sourceTree = "<group>"; };
 		D34B1BAA2098E2DE006F4BCD /* Costard-App-Framework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Costard-App-Framework.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D34B1BAD2098E2DE006F4BCD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D34B1BAF2098E2DE006F4BCD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D34B1BAF2098E2DE006F4BCD /* LoadVideosFromPlaylistVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadVideosFromPlaylistVC.swift; sourceTree = "<group>"; };
 		D34B1BB22098E2DF006F4BCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D34B1BB42098E2E1006F4BCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D34B1BB72098E2E1006F4BCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D34B1BB92098E2E1006F4BCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3EDC8E720C168F900362CDB /* LoadPlaylistsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadPlaylistsVC.swift; sourceTree = "<group>"; };
+		D3EDC8E920C16A2200362CDB /* CheckAppInstallVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckAppInstallVC.swift; sourceTree = "<group>"; };
+		D3EDC8EB20C16B8C00362CDB /* LoadStatisticsChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadStatisticsChannelVC.swift; sourceTree = "<group>"; };
+		D3EDC8ED20C16C0B00362CDB /* SearchVideosVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVideosVC.swift; sourceTree = "<group>"; };
+		D3EDC92520C184E100362CDB /* CostardApp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CostardApp.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3424AA220C0766F00B9D6B7 /* CostardApp.framework in Frameworks */,
+				D3EDC92720C184F600362CDB /* CostardApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,12 +84,16 @@
 			isa = PBXGroup;
 			children = (
 				D34B1BAD2098E2DE006F4BCD /* AppDelegate.swift */,
-				D34B1BAF2098E2DE006F4BCD /* ViewController.swift */,
+				D34B1BAF2098E2DE006F4BCD /* LoadVideosFromPlaylistVC.swift */,
+				D3EDC8E720C168F900362CDB /* LoadPlaylistsVC.swift */,
+				D3EDC8EB20C16B8C00362CDB /* LoadStatisticsChannelVC.swift */,
+				D3EDC8ED20C16C0B00362CDB /* SearchVideosVC.swift */,
+				D3EDC8E920C16A2200362CDB /* CheckAppInstallVC.swift */,
 				D34B1BB12098E2DF006F4BCD /* Main.storyboard */,
 				D34B1BB42098E2E1006F4BCD /* Assets.xcassets */,
 				D34B1BB62098E2E1006F4BCD /* LaunchScreen.storyboard */,
+				D3EDC92520C184E100362CDB /* CostardApp.framework */,
 				D34B1BB92098E2E1006F4BCD /* Info.plist */,
-				D3424A9E20C06AA400B9D6B7 /* CostardApp.framework */,
 			);
 			path = "Costard-App-Framework";
 			sourceTree = "<group>";
@@ -114,7 +126,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Brian Costard";
 				TargetAttributes = {
 					D34B1BA92098E2DE006F4BCD = {
@@ -159,7 +171,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D34B1BB02098E2DE006F4BCD /* ViewController.swift in Sources */,
+				D34B1BB02098E2DE006F4BCD /* LoadVideosFromPlaylistVC.swift in Sources */,
+				D3EDC8EA20C16A2200362CDB /* CheckAppInstallVC.swift in Sources */,
+				D3EDC8EE20C16C0B00362CDB /* SearchVideosVC.swift in Sources */,
+				D3EDC8E820C168F900362CDB /* LoadPlaylistsVC.swift in Sources */,
+				D3EDC8EC20C16B8C00362CDB /* LoadStatisticsChannelVC.swift in Sources */,
 				D34B1BAE2098E2DE006F4BCD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,7 +255,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
